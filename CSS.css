@@ -9,8 +9,8 @@ body {
 }
 
 .mode-container {
-   background: rgb(211,233,215);
-background: linear-gradient(274deg, rgba(211,233,215,1) 0%, rgba(233,211,227,1) 100%);
+   background: rgb(246,219,225);
+background: linear-gradient(274deg, rgba(246,219,225,1) 34%, rgba(232,216,238,1) 69%);
     height: 100vh;
     background-size: cover;
     text-align: center;
