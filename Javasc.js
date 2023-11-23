@@ -18,7 +18,7 @@ let data;
 function modeChanger() {
     if (modeImgElement.src === "https://i.pinimg.com/564x/20/b1/ab/20b1ab1773478f4c8c18ce25bf0d18fe.jpg") {
         modeImgElement.src = "https://w7.pngwing.com/pngs/543/19/png-transparent-weather-forecasting-symbol-computer-icons-cloud-sunny-cloud-weather-forecasting-computer-wallpaper.png";
-        themeModeElement.style.background = "radial-gradient(circle, rgba(112,187,207,1) 0%, rgba(255,255,255,1)52%)";
+        hemeModeElement.style.background = "#";
         modeToggleBtnElement.style.backgroundImage = "url('https://previews.123rf.com/images/pellinni/pellinni1707/pellinni170700043/81837994-dramatic-sky-with-dynamic-cloud-arrangement-cloudy-weather-background.jpg')";
     } else {
         modeImgElement.src = "https://i.pinimg.com/564x/20/b1/ab/20b1ab1773478f4c8c18ce25bf0d18fe.jpg";
