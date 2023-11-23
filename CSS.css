@@ -1,1 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+.mode-container {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(112, 187, 207, 1) 0%, rgba(255, 255, 255, 1)52%);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+}
+
+.mode-switch {
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 45px;
+    width: 40px;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_81837994_dramatic-sky-with-dynamic-cloud-arrangement-cloudy-weather-background.html&psig=AOvVaw1DLxtPUf5Qofa4tAdoV-xi&ust=1700241509319000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjZ_a-DyYIDFQAAAAAdAAAAABAK');
+    background-size: cover;
+}
+
+.mode-switch-LogoImage {
+    width: 30px;
+    margin-top: 4px;
+    margin: auto;
+}
+
+.weather-card {
+    background: linear-gradient(286deg, rgba(255, 255, 255, 1) 0%, rgba(1, 156, 225, 1) 0%, rgba(220, 220, 220, 1) 100%);
+    padding: 10px;
+    border-radius: 30px;
+    width: 75%;
+    margin: auto;
+    max-width: 400px;
+    overflow: auto;
+}
+
+.searchLogo {
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 45px;
+    width: 40px;
+    margin-top: 16px;
+    background-color: rgb(207, 243, 255);
+
+
+}
+
+.searchLogoImage {
+    width: 14px;
+    margin-top: 4px;
+    margin: auto;
+}
+
+.inputStyle {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(207, 243, 255);
+    border: 0px;
+
+}
+
+.weatherImage {
+    height: 150px;
+    width: 150px;
+}
+
+.weather-card-para {
+    font-size: 18px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.weather-card-heading {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.weather-card-place {
+    font-size: 35px;
+    padding-bottom: 15px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.humidity-image {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.bottom-section {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.humidity-heading {
+    font-size: 22px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.humidity-para {
+    font-size: 15px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+.humidity-section {
+    margin-left: 10px;
+}
+
+.glow-item {
+    -webkit-box-shadow: 0px 0px 105px 44px rgba(3, 2, 0, 0.9);
+    -moz-box-shadow: 0px 0px 105px 44px rgba(3, 2, 0, 0.9);
+    box-shadow: 0px 0px 105px 44px rgba(3, 2, 0, 0.9);
+}
+
+.mode-btn {
+    width: 50px;
+}
+
+.outerBtn {
+    margin: 30px;
+    text-align: right;
+}
+
+.weather-card:hover {
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: -8px -8px 35px 2px rgb(99, 139, 255),
+        8px 8px 35px 2px rgb(18, 216, 255);
+    transition: all 0.9s ease-out;
+}
+
+/*
+.sunGlow {
+    -webkit-box-shadow: 0px 0px 238px 28px rgba(255, 242, 0, 0.9);
+    -moz-box-shadow: 0px 0px 238px 28px rgba(255, 242, 0, 0.9);
+    box-shadow: 0px 0px 238px 28px rgba(255, 242, 0, 0.9);
+}
+
+.moonGlow {
+    webkit-box-shadow: 0px 0px 238px 28px rgba(250, 250, 250, 0.9);
+    -moz-box-shadow: 0px 0px 238px 28px rgba(250, 250, 250, 0.9);
+    box-shadow: 0px 0px 238px 28px rgba(250, 250, 250, 0.9);
+}
+
+
+.weather-card:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+}
+
+.weather-card:hover:before,
+.weather-card:hover:after {
+    animation: none;
+    opacity: 0;
+}
+
+
+.weather-card::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.weather-card::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--weather-card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--weather-card-height) / 6));
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+
+    100% {
+        --rotate: 360deg;
+    }
+}
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+:root {
+    --weather-card-height: 65vh;
+    --weather-card-width: calc(var(--weather-card-height) / 1.5);
+}*/
