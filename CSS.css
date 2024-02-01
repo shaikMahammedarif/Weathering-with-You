@@ -9,8 +9,8 @@ body {
 }
 
 .mode-container {
-   background: rgb(246,219,225);
-background: linear-gradient(274deg, rgba(246,219,225,1) 34%, rgba(232,216,238,1) 69%);
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(112, 187, 207, 1) 0%, rgba(255, 255, 255, 1)52%);
     height: 100vh;
     background-size: cover;
     text-align: center;
@@ -18,7 +18,7 @@ background: linear-gradient(274deg, rgba(246,219,225,1) 34%, rgba(232,216,238,1)
 }
 
 .mode-switch {
-    border-radius: 70%;
+    border-radius: 50%;
     margin-left: 10px;
     height: 45px;
     width: 40px;
@@ -43,7 +43,7 @@ background: linear-gradient(274deg, rgba(246,219,225,1) 34%, rgba(232,216,238,1)
 }
 
 .searchLogo {
-    border-radius: 70%;
+    border-radius: 50%;
     margin-left: 10px;
     height: 45px;
     width: 40px;
